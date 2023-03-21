@@ -29,8 +29,8 @@ const cors = require('cors');
  
    mongoose.set('strictQuery', false)
    mongoose.connect(
-     //'mongodb+srv://shreyashc240:Devshreyas123@cluster0.vgzndbe.mongodb.net/?retryWrites=true&w=majority', 
-     'mongodb+srv://shreyashc240:Devshreyas123@cluster0.vgzndbe.mongodb.net/?retryWrites=true&w=majority',
+     'mongodb+srv://.vgzndbe.mongodb.net/?retryWrites=true&w=majority', 
+     
      {
        useNewUrlParser: true,
        useUnifiedTopology: true
